@@ -1,5 +1,5 @@
 module PaymentGateway
-  
+
   class RequestStringBase
     SECRET_KEY = 'Q9fbkBF8au24C9wshGRW9ut8ecYpyXye5vhFLtHFdGjRg3a4HxPYRfQaKutZx5N4'
     require 'openssl'
@@ -31,7 +31,7 @@ module PaymentGateway
     end
   end
 
-  
+
   class RequestStringDecoder < RequestStringBase
 
     def to_decode
